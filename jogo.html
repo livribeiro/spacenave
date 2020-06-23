@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Space Nave</title>
+    <script src="js/animacao.js"></script>
+    <script src="js/colisor.js"></script>
+    <script src="js/explosao.js"></script>
+    <script src="js/fundo.js"></script>
+    <script src="js/tiro.js"></script>
+    <script src="js/nave.js"></script>
+    <script src="js/ovni.js"></script>
+    <script src="js/painel.js"></script>
+    <script src="js/spritesheet.js"></script>
+    <script src="js/teclado.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+
+<body>
+    <div id="regras">
+        <h1>SPACE NAVE</h1>
+        <h2>Destrua as naves inimigas e acumule pontos!</h2>
+        <h1>CONTROLES</h1>
+        <h2>MOVIMENTOS : Setas do teclado</h2>
+        <h2>TIRO: Espaço do Teclado</h2>
+        <h2>PUSAR: Enter do Teclado</h2>
+
+    </div>
+    <canvas id="canvas_animacao" width="500" height="500"></canvas>
+
+    <a id="link_jogar" href="javascript: iniciarJogo()">Jogar</a>
+
+    <div id="botao_compartilhar" data-type="button_count">
+
+        <a><span id="postar_pontuacao" href="javascript: postarPontuacao()">1 º Lugar -  </span></a>
+    </div>
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
