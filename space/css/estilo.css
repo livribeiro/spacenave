@@ -1,0 +1,60 @@
+body {
+    background-image: url(../img/spacegeneral.jpg);
+    background-repeat: no-repeat;
+}
+
+#regras {
+    position: relative;
+    margin-top: 10%;
+    width: 30%;
+    height: 100%;
+    border-style: groove;
+    background-color: rgba(188, 75, 200, 0.76);
+}
+
+#regras,
+h1,
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans Regular';
+}
+
+h2 {
+    text-align: center;
+}
+
+#canvas_animacao {
+    margin-top: -20%;
+    margin-left: 38%;
+    border-style: groove;
+}
+
+#link_jogar {
+    display: none;
+    color: white;
+    text-align: center;
+    background-color: rgba(1, 97, 175, 0.76);
+    border-radius: 30px;
+    font-size: 23px;
+    font-family: 'Lucida Sans Regular';
+    text-decoration: none;
+    position: center;
+    left: 220px;
+    top: 70%;
+    width: 470px;
+    height: 26px;
+    padding: 23px 15px;
+    margin-left: 38%;
+}
+
+#botao_compartilhar {
+    color: white;
+    position: inherit;
+    margin-top: -6%;
+    width: 30%;
+    height: 50px;
+    background-color: rgba(188, 75, 200, 0.76);
+    font-size: 20px;
+    font-family: 'Lucida Sans Regular';
+}
